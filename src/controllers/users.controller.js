@@ -1,5 +1,0 @@
-const fs = require('fs/promises')
-const Io = require("../helpers/io")
-const usersDb = new Io(`${process.cwd()}/database/users.json`)
-const user = require("../modules/users")
-const {v4:uuid} = require("uuid")
